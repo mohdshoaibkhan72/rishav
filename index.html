@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>vCard - Personal Portfolio</title>
 
-    <!--
+    <!-- 
+    
     - favicon
   -->
     <link
@@ -180,11 +181,14 @@
             </li>
 
             <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Blog</button>
-            </li>
-
-            <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>
+                <a href="login.html" style="color: aliceblue" target="_blank"
+                  >login</a
+                >
+              </button>
             </li>
           </ul>
         </nav>
@@ -253,7 +257,7 @@
                 <div class="service-icon-box">
                   <img
                     src="./assets/images/icon-dev.svg"
-                    alt="Web development icon"
+                    alt="Song video icon"
                     width="40"
                   />
                 </div>
@@ -325,7 +329,7 @@
               <div class="modal-img-wrapper">
                 <figure class="modal-avatar-box">
                   <img
-                    src="./assets/images/avatar-1.png"
+                    src="https://yt3.googleusercontent.com/8KtJ4zZtp2VWU9s1aohehTRC1cuKAc5WYR8dPuesnGMA1gbViNtuYHPdNamRYYmC0oQ7lc8d=s900-c-k-c0x00ffffff-no-rj"
                     alt="Daniel lewis"
                     width="80"
                     data-modal-img
@@ -365,7 +369,7 @@
               <li class="clients-item">
                 <a href="#">
                   <img
-                    src="./assets/images/logo-1-color.png"
+                    src="https://yt3.googleusercontent.com/8KtJ4zZtp2VWU9s1aohehTRC1cuKAc5WYR8dPuesnGMA1gbViNtuYHPdNamRYYmC0oQ7lc8d=s900-c-k-c0x00ffffff-no-rj"
                     alt="client logo"
                   />
                 </a>
@@ -374,7 +378,7 @@
               <li class="clients-item">
                 <a href="#">
                   <img
-                    src="./assets/images/logo-2-color.png"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIjRn8dHovpsFDYT4M7onRT6jMYC7glO0Yrw&s"
                     alt="client logo"
                   />
                 </a>
@@ -383,7 +387,7 @@
               <li class="clients-item">
                 <a href="#">
                   <img
-                    src="./assets/images/logo-3-color.png"
+                    src="https://yt3.googleusercontent.com/ytc/AIdro_nM44oSEZEqnwKYeIIL2okMXBex1z1oXmShB4BmjRagIg=s160-c-k-c0x00ffffff-no-rj"
                     alt="client logo"
                   />
                 </a>
@@ -391,28 +395,7 @@
 
               <li class="clients-item">
                 <a href="#">
-                  <img
-                    src="./assets/images/logo-4-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-5-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-6-color.png"
-                    alt="client logo"
-                  />
+                  <img src="./assets/images/logoall.jpg" alt="client logo" />
                 </a>
               </li>
             </ul>
@@ -603,21 +586,9 @@
           </header>
 
           <section class="projects">
-            <ul class="filter-list">
+            <ul class="">
               <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
-              </li>
-
-              <li class="filter-item">
-                <button data-filter-btn>Web design</button>
-              </li>
-
-              <li class="filter-item">
-                <button data-filter-btn>Applications</button>
-              </li>
-
-              <li class="filter-item">
-                <button data-filter-btn>Web development</button>
+                <button class="active" data-filter-btn>News Editing</button>
               </li>
             </ul>
 
@@ -638,15 +609,15 @@
                 </li>
 
                 <li class="select-item">
-                  <button data-select-item>Web design</button>
+                  <button data-select-item>News Video</button>
                 </li>
 
                 <li class="select-item">
-                  <button data-select-item>Applications</button>
+                  <button data-select-item>Song video</button>
                 </li>
 
                 <li class="select-item">
-                  <button data-select-item>Web development</button>
+                  <button data-select-item>Short Films</button>
                 </li>
               </ul>
             </div>
@@ -655,48 +626,52 @@
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web development"
+                data-category="News Video"
               >
-                <a href="#">
+                <a href="https://youtu.be/bojykWDeXJc?si=c-lNGI3ykkkw90Sg">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-1.jpg"
+                      src="https://img.youtube.com/vi/bojykWDeXJc/maxresdefault.jpg"
                       alt="finance"
-                      loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Finance</h3>
+                  <h3 class="project-title">
+                    #army शहीदों की शहादत को सलाम शहीद देवेंद्र सिंह बघेल
+                  </h3>
 
-                  <p class="project-category">Web development</p>
+                  <p class="project-category">News Video</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web development"
+                data-category="News Video"
               >
-                <a href="#">
+                <a href="https://youtu.be/aviW8Yi-yeg?si=pX7yE0_3nraia_r4">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-2.png"
+                      src="https://img.youtube.com/vi/aviW8Yi-yeg/maxresdefault.jpg"
                       alt="orizon"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Orizon</h3>
+                  <h3 class="project-title">
+                    Pakistani Woman Reached India: अपने प्यार से शादी करने भारत
+                    आई एक और Pakistani लड़की
+                  </h3>
 
-                  <p class="project-category">Web development</p>
+                  <p class="project-category">News Video</p>
                 </a>
               </li>
 
@@ -705,22 +680,25 @@
                 data-filter-item
                 data-category="web design"
               >
-                <a href="#">
+                <a href="https://youtu.be/FRQ5aPhS798?si=Ct1A-aloLhqimJET">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-3.jpg"
+                      src="https://img.youtube.com/vi/FRQ5aPhS798/maxresdefault.jpg"
                       alt="fundo"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Fundo</h3>
+                  <h3 class="project-title">
+                    कथावाचक Devkinandan Thakur का दावा, कहा ''जामा मस्जिद की
+                    सीढ़ियों के नीचे श्री कृष्ण की मूर्ति
+                  </h3>
 
-                  <p class="project-category">Web design</p>
+                  <p class="project-category">News Video</p>
                 </a>
               </li>
 
@@ -729,22 +707,25 @@
                 data-filter-item
                 data-category="applications"
               >
-                <a href="#">
+                <a href="https://youtu.be/tDsfFjWAKQ0?si=cxcsvJ2g-ZvNkND5">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-4.png"
+                      src="https://img.youtube.com/vi/tDsfFjWAKQ0/maxresdefault.jpg"
                       alt="brawlhalla"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Brawlhalla</h3>
+                  <h3 class="project-title">
+                    #PHONO:: प्रात दर्पण न्यूज़ से लाइव कवरेज आदित्य मुद्गल के
+                    साथ
+                  </h3>
 
-                  <p class="project-category">Applications</p>
+                  <p class="project-category">News Video</p>
                 </a>
               </li>
 
@@ -753,22 +734,25 @@
                 data-filter-item
                 data-category="web design"
               >
-                <a href="#">
+                <a href="https://youtu.be/hZN4wbdZUQg?si=NHDxitvUBYvN6Zdi">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-5.png"
+                      src="https://img.youtube.com/vi/hZN4wbdZUQg/maxresdefault.jpg"
                       alt="dsm."
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">DSM.</h3>
+                  <h3 class="project-title">
+                    AGRA के ADVOCATE की अय्याशी के आगे छोटे हैं तमाम
+                    PORN-STAR,Hot video & फोटो नहीं है PORN MOVIE से कम
+                  </h3>
 
-                  <p class="project-category">Web design</p>
+                  <p class="project-category">News Video</p>
                 </a>
               </li>
 
@@ -777,46 +761,138 @@
                 data-filter-item
                 data-category="web design"
               >
-                <a href="#">
+                <a href="https://youtu.be/MjcUdfmPJjU?si=QxhvBAkOqvEc7SOx">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-6.png"
+                      src="https://img.youtube.com/vi/MjcUdfmPJjU/maxresdefault.jpg"
                       alt="metaspark"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">MetaSpark</h3>
+                  <h3 class="project-title">
+                    अस्त्र न्यूज़ आगरा : उत्तर प्रदेश की टॉप 10 खबरें....
+                  </h3>
 
-                  <p class="project-category">Web design</p>
+                  <p class="project-category">News Video</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="projects">
+            <ul class="">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>Songe Editing</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>News Video</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Song video</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Short Films</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="News Video"
+              >
+                <a href="https://youtu.be/FHcZiTkFAsw?si=IB9ULseLqt-J3CyK">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://img.youtube.com/vi/FHcZiTkFAsw/maxresdefault.jpg"
+                      alt="finance"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Youth king present|| Mujhe mat samjha || New Rap Song || RDX
+                    DEVIL
+                  </h3>
+
+                  <p class="project-category">Song Video</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web development"
+                data-category="News Video"
               >
-                <a href="#">
+                <a href="https://youtu.be/Enn6p59g-kY?si=_qaaU9C84vkVyEvu">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-7.png"
-                      alt="summary"
+                      src="https://img.youtube.com/vi/Enn6p59g-kY/maxresdefault.jpg"
+                      alt="orizon"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Summary</h3>
+                  <h3 class="project-title">Hip Hop Karne de |</h3>
 
-                  <p class="project-category">Web development</p>
+                  <p class="project-category">Song Video</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://youtu.be/jHg2fK4l6rY?si=snglpRXPXCI8uqKM">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://img.youtube.com/vi/jHg2fK4l6rY/sddefault.jpg"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Up80 ke sher</h3>
+
+                  <p class="project-category">Song Video</p>
                 </a>
               </li>
 
@@ -825,46 +901,48 @@
                 data-filter-item
                 data-category="applications"
               >
-                <a href="#">
+                <a href="https://youtu.be/uFluWQVr5iU?si=yQTeiCD0aCaVdy11">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-8.jpg"
-                      alt="task manager"
+                      src="https://img.youtube.com/vi/uFluWQVr5iU/maxresdefault.jpg"
+                      alt="brawlhalla"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Task Manager</h3>
+                  <h3 class="project-title">
+                    Tention M.A.M FT. SUKH up80 underground
+                  </h3>
 
-                  <p class="project-category">Applications</p>
+                  <p class="project-category">Song Video</p>
                 </a>
               </li>
 
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="web development"
+                data-category="web design"
               >
-                <a href="#">
+                <a href="https://youtu.be/WAJ6uZrCcMo?si=wIQN7Mf1kstiSQHN">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-9.png"
-                      alt="arrival"
+                      src="https://img.youtube.com/vi/WAJ6uZrCcMo/maxresdefault.jpg"
+                      alt="dsm."
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Arrival</h3>
+                  <h3 class="project-title">Maa_Baap feat. Khota sikka</h3>
 
-                  <p class="project-category">Web development</p>
+                  <p class="project-category">Song Video</p>
                 </a>
               </li>
             </ul>
@@ -874,198 +952,6 @@
         <!--
         - #BLOG
       -->
-
-        <article class="blog" data-page="blog">
-          <header>
-            <h2 class="h2 article-title">Blog</h2>
-          </header>
-
-          <section class="blog-posts">
-            <ul class="blog-posts-list">
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-1.jpg"
-                      alt="Design conferences in 2022"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">
-                      Design conferences in 2022
-                    </h3>
-
-                    <p class="blog-text">
-                      Veritatis et quasi architecto beatae vitae dicta sunt,
-                      explicabo.
-                    </p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-2.jpg"
-                      alt="Best fonts every designer"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">
-                      Best fonts every designer
-                    </h3>
-
-                    <p class="blog-text">
-                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
-                      est eligendi.
-                    </p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-3.jpg"
-                      alt="Design digest #80"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                    <p class="blog-text">
-                      Excepteur sint occaecat cupidatat no proident, quis
-                      nostrum exercitationem ullam corporis suscipit.
-                    </p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-4.jpg"
-                      alt="UI interactions of the week"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">
-                      UI interactions of the week
-                    </h3>
-
-                    <p class="blog-text">
-                      Enim ad minim veniam, consectetur adipiscing elit, quis
-                      nostrud exercitation ullamco laboris nisi.
-                    </p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-5.jpg"
-                      alt="The forgotten art of spacing"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">
-                      The forgotten art of spacing
-                    </h3>
-
-                    <p class="blog-text">
-                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
-                      et dolore magna aliqua.
-                    </p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-6.jpg"
-                      alt="Design digest #79"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                    <p class="blog-text">
-                      Optio cumque nihil impedit uo minus quod maxime placeat,
-                      velit esse cillum.
-                    </p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
 
         <!--
         - #CONTACT
